@@ -1,0 +1,22 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  width: 40%;
+}
+
+.cell {
+  width: calc(25% - 10px);
+  aspect-ratio: 1/1;
+  margin: 5px;
+  display: block;
+
+  border-radius: 10%;
+  background-color: #f2d9a0;
+}
+
+.monster {
+  background-image: url(images/2dbd01ce16c0fa83cb67.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
